@@ -1,0 +1,14 @@
+
+
+blockquote {
+  display: inline-block;
+  color: blue;
+}
+
+.row{
+  border:solid 2px pink;
+}
+
+.col-md-6 {
+  border: solid 2px purple;
+}
