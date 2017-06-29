@@ -1,14 +1,38 @@
 
 
+
 blockquote {
-  display: inline-block;
-  color: blue;
+border: solid 2px;
+font-size: 250%;
 }
 
-.row{
-  border:solid 2px pink;
+image.pull-right {
+  float: left !important;
 }
 
-.col-md-6 {
-  border: solid 2px purple;
+iframe {
+  float: right;
+}
+
+.col-md-8 {
+  padding: 20px;
+}
+
+footer {
+  position: fixed;
+  height: 30px;
+  width: 100%;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  text-align: right;
+}
+
+button {
+  display: block;
+  float: right;
+}
+
+.mail {
+  color: white;
 }
